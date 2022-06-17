@@ -1,9 +1,11 @@
+/* UNIVERSAL WILDCARD SETTINGS */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* ELEMENT SETTINGS */
 body {
     background-color: #d9dcd6;
 }
@@ -51,6 +53,8 @@ p {
     margin-bottom: 50px;
 }
 
+/* CLASS SETTINGS */
+/* sets site's background image */
 .hero {
     height: 800px;
     width: 100%;
@@ -60,14 +64,19 @@ p {
     background-position: center;
 }
 
+/* settings for section area */
+/* settings for left-floating images in section */
 .float-left {
     float: left;
     margin-right: 25px;
+    max-height: 200px;
 }
 
+/* settings for right-floating images in section */
 .float-right {
     float: right;
     margin-left: 25px;
+    max-height: 200px;
 }
 
 .content {
@@ -76,6 +85,21 @@ p {
     margin-left: 20px;
 }
 
+.left-content {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.left-content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* setting for content in right sidebar */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -88,40 +112,26 @@ p {
     color: #ffffff;
 }
 
-.benefit-lead, .benefit-brand, .benefits-cost, {
+/* settings for sidebar */
+.benefit-lead, .benefit-brand, .benefits-cost {
     margin-bottom: 32px;
+}
+
+/* settings for headings in sidebar */
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
     color: #ffffff;
 }
 
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;#
-}
-
+/* settings for icons in sidebar */
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.left-content {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.left-content img {
-    max-height: 200px;
-}
-
-.left-content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* settings for footer */
 .footer {
     padding: 30px;
     clear: both;
